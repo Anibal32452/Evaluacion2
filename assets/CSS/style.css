@@ -1,0 +1,295 @@
+:root{
+    --main-color: black;
+    --black:black;
+    --bgr:2rem solid;
+   
+}
+
+header{
+
+    background-repeat: no-repeat;
+    background-image: url(/imagen/descarga.jpg)
+   
+}
+
+.home{
+
+margin: 0rem;
+padding: 0rem;
+
+}
+
+*{
+    margin: 5px;
+    padding: 4px;
+    border: 2px;
+    font-size: 100%;
+    vertical-align: baseline;
+   
+ 
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+   
+}
+
+.div {
+    display: contents;
+    align-items: right;
+    justify-content: space-between;
+    height: 60px;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+     
+}
+
+.content{
+    
+    margin: 2px;
+    padding: 2px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.navbar {
+    display: inline-flex;
+    margin-right: px;
+    background-color: #101010;
+    position: static;
+}
+
+.navbar.a{
+    text-transform: uppercase;
+    text-size-adjust: 20xp;
+    color: rgb(0, 0, 0);
+    
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+
+}
+
+.content{
+    margin: 12px;
+    padding: 2px;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 45rem;
+    color: #030303;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(imagen/logo2.png) no-repeat center;
+    background-size: cover;
+    margin-left: 12px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fffcfc;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 25rem;
+    width: 30rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 5rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+    
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #000000;
+    padding-bottom: 0;
+}
+
+.iframe{
+
+    width: 40px;
+    height: 20px;
+    line-height: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+h3{
+    
+    color: #000000;
+    margin: 2px;
+    padding: 0cap;
+    font-size: large;
+    font-style: inherit;
+}
+
+div{
+
+    color: #ffffff;
+}
+
+
+div .about{
+
+    color: #000000;
+    text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+}
+
+.links{
+
+    display: inline-flex;
+    margin-right: 5px;
+    background-color: #101010;
+    position: static;
+    
+}
+
+.links a{
+
+    display: block;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
